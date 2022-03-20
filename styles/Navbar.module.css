@@ -1,0 +1,83 @@
+.container {
+  height: 100px;
+  padding: 0 50px;
+  background-color: #30302e;
+  color: #ffacc0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+
+.item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.item:nth-child(2){
+  flex: 4;
+  display: flex;
+  justify-content: center;
+}
+
+.item:last-child {
+  justify-content: flex-end;
+}
+
+.callButton {
+  border-radius: 50%;
+  border: 2px solid #ffacc0;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+}
+
+.texts {
+  margin-left: 20px;
+}
+
+.text:first-child{
+  font-size: 12px;
+  font-weight: 500;
+}
+.text:last-child{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.listItem {
+  margin: 10px;
+  font-weight: bold;
+}
+
+.cart {
+  position: relative;
+}
+
+.counter {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  /*background-color: #ffacc0;*/
+  background-color: #ffacc0;
+  color: #000;
+  padding: 3px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
